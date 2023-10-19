@@ -1,0 +1,6 @@
+What is the theory behind the recommendaton?	Item-based recommendation theory is employed, the recommended games are based on your input game or genre.
+How to use the game recommendation system?	Simply input your favourite game or preferred genre and you will get the recommendation.
+How many games are included in recommendation system?	There are more than 18,000 games pulished between 2021-2023 stored in the database, please don't hesitate to ask for recommendation.
+Can you recommend some good games to me?	Sure, games like Starfield, Chants of Sennaar and Citizen Sleeper: Purge have high rates which suggests they are worth playing. For more personalized recommendation, please enter your favourite game or preferred genre.
+Where can I download the recommended games?	All the games are available to download in Steam store:https://store.steampowered.com/.
+Why does the system go wrong?	Apologies, Maybe you could check if the App is correctly downloaed and installed.

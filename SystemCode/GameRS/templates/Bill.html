@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="static/img/favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>GameRS:Game Recommendation System</title>
+
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Bootstrap core CSS     -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Animation library for notifications   -->
+    <link href="static/css/animate.min.css" rel="stylesheet"/>
+
+    <!--  Light Bootstrap Table core CSS    -->
+    <link href="static/css/light-bootstrap-dashboard.css?v=1.4.0" rel="stylesheet"/>
+
+    <!--     Fonts and icons     -->
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+    <link href="static/css/pe-icon-7-stroke.css" rel="stylesheet" />
+    <style>
+        .bj{
+            position: fixed; 
+            opacity: 0.4; 
+            height: 100%;
+            width: 100%;
+            z-index: -1; 
+        }
+        form input[type="text"] {
+        padding: 8px;
+        width: 40%;
+        height: 80%;
+        font-weight: bold;
+        border-radius: 15px;
+      }
+
+      form input[type="submit"] {
+        background-color: red;
+        color: black;
+        height: 30px;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 15px;
+
+        }
+    </style>
+</head>
+<body>
+<img class="bj" src="https://s3-us-east-2.amazonaws.com/maryville/wp-content/uploads/2021/03/04131433/MVU-BFADM-2020-Q4-Skyscraper-Future-of-Video-Games-Trends-Technology-Types-header-v2.jpg">
+
+<div class="wrapper">
+    <div class="sidebar" data-color="purple" data-image="static/img/sidebar-5.jpg">
+
+    <!--
+
+        Tip 1: you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple"
+        Tip 2: you can also add an image using data-image tag
+
+    -->
+
+        <div class="sidebar-wrapper">
+            <div class="logo">
+                <a href="#" class="simple-text">
+                    Light Dashboard
+                </a>
+            </div>
+
+            <ul class="nav">
+                <li class="active">
+                    <a href="/home">
+                        <i class="pe-7s-graph"></i>
+                        <p>Home</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="user">
+                        <i class="pe-7s-user"></i>
+                        <p>User Profile</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="Name_Genre">
+                        <i class="pe-7s-note2"></i>
+                        <p>Name/Genre</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="Bill">
+                        <i class="pe-7s-user"></i>
+                        <p>Bill the Chatbot</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="Ask">
+                        <i class="pe-7s-note2"></i>
+                        <p>Game information</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-panel">
+        <nav class="navbar navbar-default navbar-fixed">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Chatbot</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li>
+                        </li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                           <a href="">
+                               Account
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    </form>
+                    <h2>My name is Bill. I am the Service Chatbot for this recommendation system. </h2>
+                    <h2>If you have any questions, please feel free to ask.</h2>
+                    <h2> </h2>
+                    <div>
+                        <p>Enter your message:</p>
+                        <form action="/chatbot" method="post">
+                            <input type="text" name="user_input" placeholder="Type your message" required>
+                            <input type="submit" value="Send">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container-fluid">
+                <nav class="pull-left">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                Home
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+</div>
+
+</body>
+
+    <!--   Core JS Files   -->
+    <script src="static/js/jquery.3.2.1.min.js" type="text/javascript"></script>
+    <script src="static/js/bootstrap.min.js" type="text/javascript"></script>
+
+    <!--  Charts Plugin -->
+    <script src="static/js/chartist.min.js"></script>
+
+    <!--  Notifications Plugin    -->
+    <script src="static/js/bootstrap-notify.js"></script>
+
+    <!-- Light Bootstrap Table Core javascript and methods for Demo purpose -->
+    <script src="static/js/light-bootstrap-dashboard.js?v=1.4.0"></script>
+
+</html>
+
+
