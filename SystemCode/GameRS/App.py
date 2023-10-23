@@ -165,15 +165,15 @@ def recommend():
     plt.xlabel('Game Name')
     plt.ylabel('Count')
     plt.xticks(rotation=45)
-    plt.savefig('static/img/bar_chart.png')  # Save the bar chart as an image
-    plt.close()  # Close the bar chart figure
+    plt.savefig('static/img/bar_chart.png')
+    plt.close()
 
     # Plot a pie chart of the game name percentages
     plt.figure(figsize=(8, 6))
     plt.pie(game_name_percentages, labels=game_name_percentages.index, autopct='%1.1f%%')
     plt.title('Game Inputs Percentage')
-    plt.savefig('static/img/pie_chart.png')  # Save the pie chart as an image
-    plt.close()  # Close the pie chart figure
+    plt.savefig('static/img/pie_chart.png')
+    plt.close()
 
     distances = sorted(list(enumerate(similarity[index])), reverse=True, key=lambda x: x[1])
     recommended_games = [(new_df.iloc[i[0]]['Name'],game_image.iloc[i[0]]['Headerimage']) for i in distances[1:6]]
