@@ -1,0 +1,1 @@
+window['previewConfig']={"origin":"https://rp.mockplus.cn","showLinkAreaWhenHovered":false,"alwaysShowLinkArea":false,"autoScreen":true,"mobileType":"none","noBoundary":true,"showRemarkTag":true,"controlPanelState":"expand","remarkPanelState":"hide","showNavigationBar":true,"lang":"zh-cn"}
