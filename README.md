@@ -15,26 +15,16 @@
 ---
 
 ## SECTION 1 : PROJECT TITLE
-## Singapore Housing & Deveoplment Board - BTO Recommender System
+## GameRS: Game Recommendation System
 
-<img src="SystemCode/clips/static/hdb-bto.png"
-     style="float: left; margin-right: 0px;" />
-
----
 
 ## SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
-Singapore ranks amongst countries with the highest population density in the world. In a bid to have firm control over long term urban planning, the Singapore government came up with the “Built to Order” (abbreviated BTO) initiative back in 2001. These are new Housing Development Board (HDB) flats tightly controlled by their eligibility and quantity released every year. In more recent years, the modern BTO scheme in Singapore requires a waiting period of 3-4 years, and is generally targeted at young Singaporean couples looking to purchase their first property and set up a family. Nationality and income ceilings are some of the broad filters that determine one’s eligibility for the highly sought after projects. 
+In today's digital era, the gaming industry has witnessed exponential growth, offering a vast array of games across numerous categories. To cater to the diverse preferences and ever-evolving trends, it has become crucial to develop a robust and efficient game recommendation system. Such a system aims to enhance the user experience by suggesting relevant games tailored to individual preferences.
 
+The gaming market encompasses a wide range of game genres and categories. From action-packed adventures to immersive role-playing experiences, there are countless options available to players. However, with this vast selection, finding games that align with personal interests can be challenging. Therefore, the development of a comprehensive recommendation system can greatly assist users in discovering new games that they may enjoy.
 
-Our team, comprising of 6 young Singaporeans, all hope to be property owners one day. Many of our peers opt for BTO flats due to their affordability, existence of financial aid from the government, as well as their resale value. However, there often exists a knowledge gap for these young couples during the decision making process and they end up making potentially regretful decisions. We would like to bridge this knowledge gap, and have hence chosen to base our project on creating a recommender system for BTO flats, utilizing the data from recent launches in Tampines, Eunos, Sengkang and Punggol. 
+It is important to recognize that different players exhibit varying preferences at different stages or periods. For example, casual gamers might prefer puzzle or arcade games for short bursts of entertainment, while hardcore gamers might lean towards intense multiplayer or open-world experiences. Understanding these preferences and tailoring recommendations accordingly is essential for a successful game recommendation system.
 
-
-Using the techniques imparted to us in lectures, our group first set out to build a sizeable knowledge base via conducting an interview and administering a survey. While building the system, we utilized tools such as Java to scrape real time data from HDB website and transform it into a database, CLIPS to synthesize the rule based reasoning process, and Python to integrate it into an easy to use UI for the everyday user. To add icing on the cake, we even hosted the system on a website so that the everyday user can access it through the click of a link.
-
-
-Our team had an amazing time working on this project, and hope to share our insights with everyone. Despite a focus on BTO flats, we would recommend it for everybody interested in understanding property market trends for residence or investment purposes. There truly are a wide array of factors behind the decision to invest in a property, and we only wish there was more time to work on the scope and scale of the project. 
-
----
 
 ## SECTION 3 : CREDITS / PROJECT CONTRIBUTION
 
@@ -62,56 +52,23 @@ More reference video presentations [here](https://telescopeuser.wordpress.com/20
 `Refer to appendix <Installation & User Guide> in project report at Github Folder: ProjectReport`
 
 ### To run the system using python
-
-> download projects and packages
-
+### Step 1 install python
+> install python
+### Step 2 clone project
+> download our project from github
+### Step 3 install environments
+> pip install -r requirements.txt 
+### Step 4 get similarity metrix
 > run IRS-PM-2023-10-19-GameRS/SystemCode/GameRS/data/recommender.py to get similarity.pkl
 
-> run IRS-PM-2023-10-19-GameRS/SystemCode/GameRS/data/CSC_Tag.ipynb to get cv.pkl, recommend_genre.pkl, vectors.pkl
+> (Optional)run IRS-PM-2023-10-19-GameRS/SystemCode/GameRS/data/CSC_Tag.ipynb to get cv.pkl, recommend_genre.pkl, vectors.pkl
+### Step 5 run the project
+>cd GameRS
 
-> $ python App.py
+>$ python App.py
 
 > **Go to URL using web browser** http://127.0.0.1:5000
 
-
----
-## SECTION 6 : PROJECT REPORT / PAPER
-
-`Refer to project report at Github Folder: ProjectReport`
-
-**Recommended Sections for Project Report / Paper:**
-- Executive Summary / Paper Abstract
-- Sponsor Company Introduction (if applicable)
-- Business Problem Background
-- Market Research
-- Project Objectives & Success Measurements
-- Project Solution (To detail domain modelling & system design.)
-- Project Implementation (To detail system development & testing approach.)
-- Project Performance & Validation (To prove project objectives are met.)
-- Project Conclusions: Findings & Recommendation
-- Appendix of report: Project Proposal
-- Appendix of report: Mapped System Functionalities against knowledge, techniques and skills of modular courses: MR, RS, CGS
-- Appendix of report: Installation and User Guide
-- Appendix of report: 1-2 pages individual project report per project member, including: Individual reflection of project journey: (1) personal contribution to group project (2) what learnt is most useful for you (3) how you can apply the knowledge and skills in other situations or your workplaces
-- Appendix of report: List of Abbreviations (if applicable)
-- Appendix of report: References (if applicable)
-
----
-## SECTION 7 : MISCELLANEOUS
-
-`Refer to Github Folder: Miscellaneous`
-
-### HDB_BTO_SURVEY.xlsx
-* Results of survey
-* Insights derived, which were subsequently used in our system
-
----
-
-### <<<<<<<<<<<<<<<<<<<< End of Template >>>>>>>>>>>>>>>>>>>>
-
----
-
-**This [Machine Reasoning (MR)](https://www.iss.nus.edu.sg/executive-education/course/detail/machine-reasoning "Machine Reasoning") course is part of the Analytics and Intelligent Systems and Graduate Certificate in [Intelligent Reasoning Systems (IRS)](https://www.iss.nus.edu.sg/stackable-certificate-programmes/intelligent-systems "Intelligent Reasoning Systems") series offered by [NUS-ISS](https://www.iss.nus.edu.sg "Institute of Systems Science, National University of Singapore").**
 
 **Lecturer: [GU Zhan (Sam)](https://www.iss.nus.edu.sg/about-us/staff/detail/201/GU%20Zhan "GU Zhan (Sam)")**
 
