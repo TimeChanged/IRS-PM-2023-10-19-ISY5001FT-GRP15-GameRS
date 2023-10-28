@@ -19,7 +19,7 @@ In conclusion, we successfully developed a multifunctional and convenient game r
 | Chang Ye Han | A1234567B | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567B@gmail.com |
 | Chee Jia Wei | A1234567C | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567C@outlook.com |
 | Ganesh Kumar | A1234567D | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567D@yahoo.com |
-| Jeanette Lim | A1234567E | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567E@qq.com |
+| Huang Yifei  | A0285719M | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| ailisi524@126.com |
 
 ---
 
