@@ -14,7 +14,8 @@ In conclusion, we successfully developed a multifunctional and convenient game r
 
 ## SECTION 3 : CREDITS / PROJECT CONTRIBUTION
 
-| Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) |
+| Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | E-mails(optional) |
+
 | :------------ |:---------------:| :-----| :-----|
 
 | Chen Haoquan | A0286061E | Team leader and Project manager for project. Do the market researches, work distribution, prototype making, website design and developing, data visualization and blur search developing, testing and version control, report writing, videos making |
