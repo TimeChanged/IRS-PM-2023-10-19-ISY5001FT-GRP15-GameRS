@@ -16,9 +16,13 @@ In conclusion, we successfully developed a multifunctional and convenient game r
 
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) |
 | :------------ |:---------------:| :-----| :-----|
+
 | Chen Haoquan | A0286061E | Team leader and Project manager for project. Do the market researches, work distribution, prototype making, website design and developing, data visualization and blur search developing, testing and version control, report writing, videos making |
+
 | Liang Jinning | A0285754N | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz|
+
 | Cui Mengchen | A0285690R | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz|
+
 | Huang Yifei  | A0285719M | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz|
 
 ---
