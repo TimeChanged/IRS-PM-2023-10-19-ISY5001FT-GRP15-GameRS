@@ -20,11 +20,11 @@ In conclusion, we successfully developed a multifunctional and convenient game r
 
 | Chen Haoquan | A0286061E | Team leader and Project manager for project. Do the market researches, work distribution, prototype making, website design and developing, data visualization and blur search developing, testing and version control, report writing, videos making |
 
-| Liang Jinning | A0285754N | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz|
+| Liang Jinning | A0285754N | recommendation algorithm and chatbot system developing, frontend and backend coordinating, report writing, presentation making |
 
-| Cui Mengchen | A0285690R | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz|
+| Cui Mengchen | A0285690R | front-end developing, data mining and preprocessing, system promoting, data flow architecting, report writing, presentation making |
 
-| Huang Yifei  | A0285719M | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz|
+| Huang Yifei  | A0285719M | Login system and sso developing, data pre-processing, report writing, presentation making |
 
 ---
 
